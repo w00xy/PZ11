@@ -9,9 +9,10 @@ const int LOCATION_COUNT = 3;
 // Функции
 void displayIntro();
 void displayCurrentLocation(int locationIndex);
-bool processMove(int choice); // Изменили параметр на int
+bool processMove(int choice);
 void displayInventory();
-void takeItem(const char* item); // Изменили параметр на const char*
+void takeItem(const char* item);
+bool hasItem(const char* item);  // Функция для проверки наличия предмета в инвентаре
 
 // Переменные
 extern int currentLocation;
